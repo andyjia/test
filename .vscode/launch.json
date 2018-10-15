@@ -11,7 +11,7 @@
             "mode": "auto",
             "program": "${fileDirname}",
             "env": {},
-            "args": []
+            "args": [ "-grpc-port", "9090", "-db-host","127.0.0.1:3306", "-db-user", "root", "-db-password","root","-db-schema","grpc"]
         }
     ]
 }
